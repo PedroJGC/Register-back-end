@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from "express"
+import { AppError } from "@/utils/AppError"
 import { knex } from "@/database/knex"
 
 export class ProductController {
